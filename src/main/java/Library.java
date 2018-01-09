@@ -4,11 +4,12 @@ public class Library {
     private ArrayList<Book> collection;
 
 
-public Library() {
-
+    public Library() {
+        this.collection = new ArrayList<>();
     }
 
 
-
-
+    public int bookCount() {
+        return this.collection.size();
+    }
 }
