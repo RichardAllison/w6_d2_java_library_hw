@@ -29,7 +29,7 @@ public class LibraryTest {
     }
 
     @Test
-    public void canRemovePersonFromQueue(){
+    public void canRemoveBookFromCollection(){
         library.addBook(book2);
         Book removed = library.removeBook();
         assertNotNull(removed);

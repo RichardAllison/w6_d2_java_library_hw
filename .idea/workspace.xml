@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="701635ae-00f7-48c6-9215-90fa639500ee" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Borrower.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" afterPath="$PROJECT_DIR$/src/main/java/Library.java" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/LibraryTest.class" afterPath="$PROJECT_DIR$/out/test/classes/LibraryTest.class" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,8 +28,8 @@
       <file leaf-file-name="Library.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="44" />
               <folding>
                 <element signature="e#268#269#0" expanded="true" />
                 <element signature="e#313#314#0" expanded="true" />
@@ -75,15 +77,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LibraryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="162">
+              <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#545#546#0" expanded="true" />
                 <element signature="e#597#598#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Borrower.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Borrower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <folding>
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BorrowerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BorrowerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -397,6 +430,8 @@
         <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Library.java" />
         <option value="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Borrower.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BorrowerTest.java" />
       </list>
     </option>
   </component>
@@ -481,7 +516,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest.libraryIsFull">
+  <component name="RunManager" selected="JUnit.BorrowerTest.canAddBookToBorrowerCollection">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -503,14 +538,34 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="LibraryTest.canAddBookToCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BorrowerTest.borrowerCollectionStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="JavaLibrary_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="canAddBookToCollection" />
+      <option name="MAIN_CLASS_NAME" value="BorrowerTest" />
+      <option name="METHOD_NAME" value="borrowerCollectionStartsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="BorrowerTest.canAddBookToBorrowerCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JavaLibrary_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BorrowerTest" />
+      <option name="METHOD_NAME" value="canAddBookToBorrowerCollection" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -531,26 +586,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LibraryTest" />
       <option name="METHOD_NAME" value="canCheckCapacityMet" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="LibraryTest.canRemovePersonFromQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="JavaLibrary_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="canRemovePersonFromQueue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -664,19 +699,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LibraryTest.canAddBookToCollection" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LibraryTest.canRemovePersonFromQueue" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LibraryTest.canCheckCapacityMet" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LibraryTest.cantAddMoreThanCapacity" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LibraryTest.libraryIsFull" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LibraryTest.canCheckCapacityMet" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LibraryTest.cantAddMoreThanCapacity" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LibraryTest.libraryIsFull" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BorrowerTest.borrowerCollectionStartsEmpty" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BorrowerTest.canAddBookToBorrowerCollection" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LibraryTest.libraryIsFull" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LibraryTest.cantAddMoreThanCapacity" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LibraryTest.canCheckCapacityMet" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LibraryTest.canRemovePersonFromQueue" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LibraryTest.canAddBookToCollection" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BorrowerTest.canAddBookToBorrowerCollection" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BorrowerTest.borrowerCollectionStartsEmpty" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LibraryTest.libraryIsFull" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LibraryTest.cantAddMoreThanCapacity" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LibraryTest.canCheckCapacityMet" />
       </list>
     </recent_temporary>
   </component>
@@ -697,11 +732,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookTest_bookHasGenre - 2018.01.09 at 16h 33m 38s.xml">
-      <configuration name="BookTest.bookHasGenre" configurationId="JUnit" />
+    <history-entry file="BorrowerTest_borrowerCollectionStartsEmpty - 2018.01.09 at 17h 10m 06s.xml">
+      <configuration name="BorrowerTest.borrowerCollectionStartsEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest_canAddBookToCollection - 2018.01.09 at 16h 45m 22s.xml">
-      <configuration name="LibraryTest.canAddBookToCollection" configurationId="JUnit" />
+    <history-entry file="BorrowerTest_canAddBookToBorrowerCollection - 2018.01.09 at 17h 10m 49s.xml">
+      <configuration name="BorrowerTest.canAddBookToBorrowerCollection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BorrowerTest_canAddBookToBorrowerCollection - 2018.01.09 at 17h 11m 00s.xml">
+      <configuration name="BorrowerTest.canAddBookToBorrowerCollection" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LibraryTest_canCheckCapacityMet - 2018.01.09 at 16h 54m 06s.xml">
       <configuration name="LibraryTest.canCheckCapacityMet" configurationId="JUnit" />
@@ -720,9 +758,6 @@
     </history-entry>
     <history-entry file="LibraryTest_cantAddMoreThanCapacity - 2018.01.09 at 17h 00m 42s.xml">
       <configuration name="LibraryTest.cantAddMoreThanCapacity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_collectionStartsEmpty - 2018.01.09 at 16h 41m 22s.xml">
-      <configuration name="LibraryTest.collectionStartsEmpty" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LibraryTest_libraryIsFull - 2018.01.09 at 17h 02m 53s.xml">
       <configuration name="LibraryTest.libraryIsFull" configurationId="JUnit" />
@@ -811,8 +846,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="44" />
           <folding>
             <element signature="e#268#269#0" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
@@ -826,12 +861,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="162">
+          <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#545#546#0" expanded="true" />
             <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Borrower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BorrowerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
           </folding>
         </state>
       </provider>
