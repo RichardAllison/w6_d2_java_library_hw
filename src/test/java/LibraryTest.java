@@ -3,6 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 public class LibraryTest {
 
@@ -12,7 +13,7 @@ public class LibraryTest {
 
     @Before
     public void before(){
-        library = new Library();
+        library = new Library(10);
         book1 = new Book("The Lord of the Rings", "J. R. R. Tolkein", "Fantasy");
         book2 = new Book("Frankenstein", "Mary Shelley", "Horror");
     }
@@ -33,6 +34,22 @@ public class LibraryTest {
         Book removed = library.removeBook();
         assertNotNull(removed);
         assertEquals(0, library.bookCount());
+    }
+
+    @Test
+    public void libraryIsFull(){
+        for(int i = 0; i < 10; i++){
+            library.addBook(book2);
+        }
+        assertTrue(library.isFull());
+    }
+
+    @Test
+    public void cantAddMoreThanCapacity(){
+        for(int i = 0; i < 12; i++){
+            library.addBook(book2);
+        }
+        assertEquals(10, library.bookCount());
     }
 
 }
