@@ -25,7 +25,9 @@ public class BorrowerTest {
 
     @Test
     public void canAddBookToBorrowerCollection(){
-        borrower.addBook(book1);
+        library.addBook(book1);
+        library.addBook(book2);
+        borrower.addBook(library);
         assertEquals(1, borrower.bookCount());
     }
 
