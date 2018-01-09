@@ -12,4 +12,13 @@ public class Library {
     public int bookCount() {
         return this.collection.size();
     }
+
+    public void addBook(Book book) {
+        this.collection.add(book);
+    }
+
+    public Book removeBook() {
+        return this.collection.remove(0);
+    }
+
 }

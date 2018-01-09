@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class LibraryTest {
 
@@ -20,4 +21,18 @@ public class LibraryTest {
     public void collectionStartsEmpty(){
         assertEquals(0, library.bookCount());
     }
+    @Test
+    public void canAddBookToCollection(){
+        library.addBook(book1);
+        assertEquals(1, library.bookCount());
+    }
+
+    @Test
+    public void canRemovePersonFromQueue(){
+        library.addBook(book2);
+        Book removed = library.removeBook();
+        assertNotNull(removed);
+        assertEquals(0, library.bookCount());
+    }
+
 }
