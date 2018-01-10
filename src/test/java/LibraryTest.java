@@ -11,11 +11,13 @@ public class LibraryTest {
     Book book1;
     Book book2;
 
+
     @Before
     public void before(){
         library = new Library(10);
         book1 = new Book("The Lord of the Rings", "J. R. R. Tolkein", "Fantasy");
         book2 = new Book("Frankenstein", "Mary Shelley", "Horror");
+
     }
 
     @Test
@@ -51,5 +53,7 @@ public class LibraryTest {
         }
         assertEquals(10, library.bookCount());
     }
+
+
 
 }

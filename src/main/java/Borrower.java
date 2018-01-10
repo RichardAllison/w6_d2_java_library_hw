@@ -18,5 +18,8 @@ public class Borrower {
         this.collection.add(book);
     }
 
+//    public Book returnBook(Library library) {
+//        return this.collection.remove(0);
+//    }
 
 }
