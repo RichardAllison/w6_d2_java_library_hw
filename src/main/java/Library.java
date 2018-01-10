@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Library {
     private ArrayList<Book> collection;
@@ -28,5 +30,18 @@ public class Library {
         return this.collection.remove(0);
     }
 
+
+    public HashMap<String, Integer> getGenreCount(){
+        HashMap<String, Integer> genreCount = new HashMap<String,Integer>();
+        for(Book book: this.collection){
+            Integer count = genreCount.get(book.getGenre());
+            if (count == null){
+                count = 0;
+            }
+            count += 1;
+            genreCount.put(book.getGenre(), count);
+        }
+        return genreCount;
+    }
 
 }
